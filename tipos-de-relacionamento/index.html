@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relacionamentos de Banco de Dados</title>
+    <style>
+        div {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Relacionamentos De Banco De Dados</h1>
+    <form action="teste.php" method="get">
+        <div>
+            <label>
+                Selecione a resposta da primeira pergunta <br>
+                <input type="radio" name="opcao" id="ium1"  value="um"><label for="ium1">1</label>
+                <input type="radio" name="opcao" id="ivarios1" value="varios"><label for="ivarios1">Vários</label>
+            </label>
+        </div>
+        <div>
+            <label>
+                Selecione a resposta da segunda pergunta <br>
+                <input type="radio" name="opt" id="ium2" value="um"><label for="ium2">1</label>
+                <input type="radio" name="opt" id="ivarios2" value="varios"><label for="ivarios2">Vários</label><br><br>
+                <input type="button" value="Enviar">
+            </label>
+        </div>
+        <div id="res">
+
+        </div>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
