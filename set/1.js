@@ -1,0 +1,13 @@
+var mySet = new Set()
+console.log(mySet)
+mySet.add(1)
+console.log(mySet)
+mySet.add("Some Text")
+console.log(mySet)
+mySet.add("foo")
+console.log(mySet)
+
+mySet.has(1)
+console.log(mySet)
+mySet.delete("foo")
+console.log(mySet)
